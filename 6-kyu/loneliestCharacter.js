@@ -18,3 +18,4 @@ function loneliest(str) {
 
 loneliest("a  b  c  de  ");
 // .sort(), ['b', 'c'], "result"
+// https://www.codewars.com/kata/5f885fa9f130ea00207c7dc8/train/javascript

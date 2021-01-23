@@ -32,3 +32,4 @@ function isValidWalk(walk) {
 isValidWalk(["e", "w", "e", "w", "n", "s", "n", "s", "e", "w"]);
 //    'should return true'
 // https://www.codewars.com/kata/54da539698b8a2ad76000228/train/javascript
+// have a look at this

@@ -1,6 +1,5 @@
 function isValidWalk(walk) {
   let obj = {};
-  //insert brilliant code here
   if (walk.length !== 10) {
     return false;
   }

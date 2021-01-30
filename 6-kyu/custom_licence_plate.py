@@ -1,6 +1,7 @@
 def licence_plate(s):
+    not_possible = 'not possible'
     if (len(s) < 2):
-        return 'not possible'
+        return not_possible
 
     new_string = ''
     num_digits = 0
@@ -18,14 +19,14 @@ def licence_plate(s):
         if len(new_string) >= 8:
             break
     if num_digits == len(new_string) or len(new_string) < 2:
-        return 'not possible'
+        return not_possible
     while new_string[-1] == '-':
         new_string = new_string[:-1]
 
     while new_string[0] == '-':
         new_string = new_string[1:]
     if num_digits == len(new_string) or len(new_string) < 2:
-        return 'not possible'
+        return not_possible
     else:
         return new_string
 

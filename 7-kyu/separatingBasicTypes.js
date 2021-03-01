@@ -1,11 +1,9 @@
 function separateTypes(input) {
   let newObj = {};
   for (let element of input) {
-    if (!newObj[typeof element]) {
-      newObj[typeof element] = [element];
-    } else {
-      newObj[typeof element].push(element);
-    }
+    !newObj[typeof element]
+      ? (newObj[typeof element] = [element])
+      : newObj[typeof element].push(element);
   }
   return newObj;
 }
